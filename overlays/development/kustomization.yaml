@@ -4,6 +4,7 @@ kind: Kustomization
 namespace: development
 
 resources:
+  - namespace.yaml
   - ../../base
   - dragonfly.yaml
 
